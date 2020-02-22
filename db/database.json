@@ -1,0 +1,253 @@
+{
+  "title": "Your Name Here",
+  "description": "Personal website of this awesome person",
+  "image": "/favicon/og-image.jpg",
+  "tags": [
+    {
+      "name": "about",
+      "color": "#A550A7",
+      "icon": "fas fa-info",
+      "code": "Digit1"
+    },
+    {
+      "name": "projects",
+      "color": "#62BA46",
+      "icon": "fas fa-palette",
+      "code": "Digit2"
+    },
+    {
+      "name": "experience",
+      "color": "#FE5257",
+      "icon": "fas fa-briefcase",
+      "code": "Digit3"
+    },
+    {
+      "name": "education",
+      "color": "#017AFF",
+      "icon": "fas fa-graduation-cap",
+      "code": "Digit4"
+    },
+    {
+      "name": "blog",
+      "color": "#F7821B",
+      "icon": "fas fa-feather-alt",
+      "code": "Digit5"
+    },
+    {
+      "name": "favourite",
+      "color": "#F74F9E",
+      "icon": "fas fa-star",
+      "code": "Digit6"
+    },
+    {
+      "name": "other",
+      "color": "#8C8C8C",
+      "icon": "fas fa-history",
+      "code": "Digit0"
+    }
+  ],
+  "social": [
+    {
+      "name": "LinkedIn",
+      "icon": "fab fa-linkedin",
+      "link": "https://www.linkedin.com/in/#/",
+      "color": "#0077B5"
+    },
+    {
+      "name": "GitHub",
+      "icon": "fab fa-github",
+      "link": "https://www.github.com/#/"
+    },
+    {
+      "name": "Mail",
+      "icon": "fas fa-envelope",
+      "link": "mailto:#",
+      "color": "#78af26"
+    }
+  ],
+  "articles": {
+    "about": [
+      {
+        "title": "Hi, I'm <NAME_HERE>",
+        "subtitle": "UX Designer • Developer • Entrepreneur",
+        "timestamp": 30000000,
+        "tags": [
+          "about"
+        ],
+        "summary": "Some words about me.",
+        "attachments": [
+          {
+            "name": "Siddhant Gupta",
+            "image": "db/about/yourphoto.jpg",
+            "full": false
+          }
+        ],
+        "actions": [
+          {
+            "name": "Resume (PDF)",
+            "icon": "fas fa-file-download",
+            "link": "db/about/resume.pdf"
+          },
+          {
+            "name": "LinkedIn",
+            "icon": "fab fa-linkedin",
+            "link": "https://www.linkedin.com/in/#/"
+          },
+          {
+            "name": "GitHub",
+            "icon": "fab fa-github",
+            "link": "https://www.github.com/#/"
+          },
+          {
+            "name": "Mail",
+            "icon": "fas fa-envelope",
+            "link": "mailto:#"
+          }
+        ]
+      },
+      {
+        "title": "I had the pleasure of working together with this person on a couple of projects",
+        "subtitle": "Recommender's name \nRecommender's position",
+        "date": "19 August 2019",
+        "timestamp": 20190819,
+        "tags": [
+          "about",
+          "testimonial",
+          "recommendation"     
+        ],
+        "summary": "He and I worked together on a couple of projects together.",
+        "actions": [
+          {
+            "name": "Recommender's name",
+            "link": "#",
+            "icon": "fab fa-linkedin"
+          }
+        ]
+      },
+      {
+        "title": "When it all began",
+        "timestamp": 19940000,
+        "icon": "fas fa-baby",
+        "date": "1994",
+        "tags": [
+          "about"
+        ],
+        "summary": "This is the end of the line. Maybe we should continue over e-mail.",
+        "actions": [          
+          {
+            "name": "Back to Top",
+            "icon": "fas fa-chevron-up",
+            "type": "top"
+          }
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Sample Project",
+        "subtitle": "@ Company",
+        "date": "April 2019",
+        "timestamp": 20190430,
+        "tags": [
+          "projects",
+          "sample",
+          "favourite"
+        ],
+        "logo": "db/sampleProject/logo.png",
+        "summary": "Business Espoo supports the vitality of businesses by offering the best, continuously developing services in one place.",
+        "role": "Sole designer",
+        "tech": [
+          "Sketch",
+          "InDesign"
+        ],
+        "attachments": [
+          {
+            "name": "BE Logo",
+            "image": "db/sampleProject/image1.jpg"
+          },
+          {
+            "name": "BE Guidelines Mockup",
+            "image": "db/sampleProject/image2.jpg"
+          }
+        ],
+        "actions": [
+          {
+            "name": "Business Espoo",
+            "link": "#"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "title": "My Super Position",
+        "subtitle": "Company name",
+        "timestamp": 20300000,
+        "tags": [
+          "experience",
+          "startup"
+        ],
+        "logo": "db/sampleExperience/logo.png",
+        "summary": "Projects: What all i did there",
+        "role": "Started a private firm to do different and interesting projects.",
+        "actions": [
+          {
+            "name": "Company Website",
+            "link": "#"
+          }
+        ]
+      }
+    ],
+    "education": [
+      {
+        "title": "Education degree",
+        "subtitle": "University name",
+        "date": "August 2017 - June 2019",
+        "timestamp": 20190615,
+        "tags": [
+          "education",
+          "masters"
+        ],
+        "summary": "<b>Courses:</b> Computational UI Design, Machine Learning, Web Software Development, Speech Recognition",
+        "actions": [          
+          {
+            "name": "Program webpage",
+            "link": "#"
+          }
+        ]
+      }
+    ],
+    "blog": [
+      {
+        "title": "Blog title",
+        "subtitle": "Blog subtitle",
+        "date": "8 May 2017",
+        "timestamp": 20170508,
+        "tags": [
+          "blog",
+          "favourite"
+        ],
+        "summary": "Blog short description.",
+        "tech": [
+          "Sketch"
+        ],
+        "attachments": [
+          {
+            "name": "Passport Concept",
+            "image": "db/sampleBlog/image.jpg"
+          }
+        ],
+        "actions": [
+          {
+            "name": "Read Post",
+            "link": "#blog/sample",
+            "target": "_self"
+          }
+        ],
+        "url": "#blog/sample",
+        "file": "db/sampleBlog/sample.md",
+        "filetype": "md"
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+
+*.xml
+
+\.idea
+
+db/node_modules/
+
+\.DS_Store
+
+editor/
