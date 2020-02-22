@@ -285,18 +285,12 @@ function buildShortcutViewer() {
 
   const tagsShortcuts = info.tags.map(tag => {
     const sCode = tag.code.includes("Digit") ? tag.code.slice(5) : tag.code;
+    const sCode2 = sCode.includes("Key") ? sCode.slice(3) : sCode;
     const sName = tag.name[0].toUpperCase() + tag.name.slice(1);
     return tag.name.includes("other")
       ? ""
-      : `<tr><th>${sCode}</th><td>Navigate to ${sName}</td></tr>`;
+      : `<tr><th>${sCode2}</th><td>Navigate to ${sName}</td></tr>`;
   });
-
-  //   <tr><th>1</th><td>Navigate to About</td></tr>
-  //         <tr><th>2</th><td>Navigate to Projects</td></tr>
-  //         <tr><th>3</th><td>Navigate to Experience</td></tr>
-  //         <tr><th>4</th><td>Navigate to Education</td></tr>
-  //         <tr><th>5</th><td>Navigate to Blog</td></tr>
-  //         <tr><th>6</th><td>Navigate to Favourite</td></tr>
 
   content.innerHTML = `<h3 style="margin-bottom: 10px">Keyboard Shortcuts </h3>
     <hr>

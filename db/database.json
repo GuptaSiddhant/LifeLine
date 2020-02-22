@@ -1,7 +1,7 @@
 {
   "title": "Your Name Here",
   "description": "Personal website of this awesome person",
-  "image": "/favicon/og-image.jpg",
+  "image": "/favicon.jpg",
   "tags": [
     {
       "name": "about",
