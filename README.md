@@ -109,6 +109,8 @@ Each article contains following properties (keys):
 - Secondary keys [subtitle, logo, date, summary, role, tech, attachments, actions] are additional information that can be provided as per requirement.
 - Viewer keys [url, file, filetype] are only required if there is a FullView Article (blog, detailPage, etc.) or Viewer attached or linked.
 
+**IMPORTANT**: The order of articles is determined by timestamp. The cards are placed in decending order. The current format is YYYYMMDD in numerical form. So card with timestamp: 20200101 will appear above card with timestamp: 20191231.
+
 A sample article:
 
 ```
