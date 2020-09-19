@@ -12,7 +12,7 @@ Everything is build natively and doesn't use any external library except - _[Sho
 
 ## Deployment
 
-Since this is JS app, it doesn't need to compile before working but it does need a server to render to files. That means, although the files are ready to be published from get-go but just opening index.html in a browser won't do the trick (lovally).
+Since this is JS app, it doesn't need to compile before working but it does need a server to render to files. That means, although the files are ready to be published from get-go but just opening index.html in a browser won't do the trick (locally).
 
 If you're using any web-deployment service like GitHub-pages, Netlify, Render, etc., just upload the contents of the folder and the app should work online.
 
